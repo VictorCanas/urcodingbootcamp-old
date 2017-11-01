@@ -6,4 +6,4 @@ Homework Assignments
 
 ## Homework Assignments
 
-- [HTML,CSS Homework](https://github.com/VictorCanas/Basic-Portfolio) - HTML,CSS Homework 
+- [HTML,CSS Homework](https://github.com/VictorCanas/Basic-Portfolio) - Basic Portfolio
