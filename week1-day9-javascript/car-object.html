@@ -6,7 +6,12 @@
   </head>
   <body>
 
+    <h1>type "h" to honk, "d" to drive to work, "w" to drive around the world, or "t" to get a tuneup.</h1>
+
     <script>
+
+
+      //when defining a property on a object its property:value 
 
       var car = {
         make: "Honda",
@@ -46,32 +51,50 @@
         }
       };
 
+      //event is an arguemt - this funciton when there is a button press 
 
-      // How would we log...
+      document.onkeyup = function(event) {
 
-      // The car's make?
+        var letter = String.fromCharCode(event.keyCode).toLowerCase();
 
-      console.log(car.make);
+        //The onkeyup property returns the onKeyUp event handler code for the current element.
+        //The static String.fromCharCode() method returns a string created by using the specified sequence of Unicode values. - property of string 
 
 
-      // The car's model?
+        if (letter === "h"){
+          car.honk();
+          reWriteStats();
+        }
+        if (letter === "d"){
+          car.driveToWork();
+          reWriteStats();
+        }
+        if (letter === "w"){
+          car.driveAroundWorld();
+          reWriteStats();
+        }
+        if (letter === "t") {
+          car.getTuneUp();
+          reWriteStats();
+        }
 
-      console.log(car.model);
+      };
 
-      // The car's mileage?
 
-      console.log(car.mileage);
+        function reWriteStats() {
+        console.log("make: " + car.make)
+        console.log("model: " + car.model)
+        console.log("color: " + car.color)
+        console.log("mileage: " + car.mileage)
+        console.log("is it working: " + car.isWorking)
+      }
 
-      // How would we run the car's driveToWork function?
 
-      console.log(car.driveToWork());
 
-      // How would we run the car's driveAroundWorld function?
 
-      console.log(car.driveAroundWorld());
 
-      // How would we run the getTuneUp function?
-      console.log(car.getTuneUp());
+
+
 
     </script>
     
