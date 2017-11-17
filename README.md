@@ -3,8 +3,8 @@ A repository of projects at University of Richmond Coding bootcamp. Expected com
 
 ## Homework Assignments
 
-- 1 - [HTML,CSS Homework](https://github.com/VictorCanas/Basic-Portfolio) - Basic Portfolio
-- 2a - [HTML,CSS Homework](https://github.com/VictorCanas/Responsive-Portfolio) - Responsive Portfolio
-- 2b - [HTML,CSS Homework](https://github.com/VictorCanas/Bootstrap-Portfolio) - Bootstrap Portfolio
-- 3 - [HTML,CSS,JavaScript Homework](https://github.com/VictorCanas/hangman-game) - Hangman game (Stranger things)
+- 1 - [Basic Portfolio](https://github.com/VictorCanas/Basic-Portfolio)
+- 2a - [Responsive Portfolio](https://github.com/VictorCanas/Responsive-Portfolio)
+- 2b - [Bootstrap Portfolio](https://github.com/VictorCanas/Bootstrap-Portfolio) 
+- 3 - [Hangman Game](https://github.com/VictorCanas/hangman-game) 
 
